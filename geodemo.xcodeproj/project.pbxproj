@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70571BD28FE426A00B450CF /* geodemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571BC28FE426A00B450CF /* geodemoApp.swift */; };
+		C70571BF28FE426A00B450CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571BE28FE426A00B450CF /* ContentView.swift */; };
+		C70571C128FE426A00B450CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70571C028FE426A00B450CF /* Assets.xcassets */; };
+		C70571C528FE426A00B450CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70571C428FE426A00B450CF /* Preview Assets.xcassets */; };
+		C70571CF28FE426A00B450CF /* geodemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571CE28FE426A00B450CF /* geodemoTests.swift */; };
+		C70571D928FE426A00B450CF /* geodemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571D828FE426A00B450CF /* geodemoUITests.swift */; };
+		C70571DB28FE426A00B450CF /* geodemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571DA28FE426A00B450CF /* geodemoUITestsLaunchTests.swift */; };
+		C70571E928FE434F00B450CF /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571E828FE434F00B450CF /* StationView.swift */; };
+		C70571EB28FE443300B450CF /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571EA28FE443300B450CF /* ImportView.swift */; };
+		C70571EE28FE46DD00B450CF /* NCMB in Frameworks */ = {isa = PBXBuildFile; productRef = C70571ED28FE46DD00B450CF /* NCMB */; };
+		C70571F028FE5DEB00B450CF /* yamanote.json in Resources */ = {isa = PBXBuildFile; fileRef = C70571EF28FE5DEB00B450CF /* yamanote.json */; };
+		C70571F228FE745000B450CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70571F128FE745000B450CF /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70571CB28FE426A00B450CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70571B128FE426A00B450CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70571B828FE426A00B450CF;
+			remoteInfo = geodemo;
+		};
+		C70571D528FE426A00B450CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70571B128FE426A00B450CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70571B828FE426A00B450CF;
+			remoteInfo = geodemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70571B928FE426A00B450CF /* geodemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geodemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70571BC28FE426A00B450CF /* geodemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geodemoApp.swift; sourceTree = "<group>"; };
+		C70571BE28FE426A00B450CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C70571C028FE426A00B450CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70571C228FE426A00B450CF /* geodemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = geodemo.entitlements; sourceTree = "<group>"; };
+		C70571C428FE426A00B450CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C70571CA28FE426A00B450CF /* geodemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geodemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70571CE28FE426A00B450CF /* geodemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geodemoTests.swift; sourceTree = "<group>"; };
+		C70571D428FE426A00B450CF /* geodemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geodemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70571D828FE426A00B450CF /* geodemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geodemoUITests.swift; sourceTree = "<group>"; };
+		C70571DA28FE426A00B450CF /* geodemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geodemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C70571E728FE42A000B450CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C70571E828FE434F00B450CF /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		C70571EA28FE443300B450CF /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		C70571EF28FE5DEB00B450CF /* yamanote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yamanote.json; sourceTree = "<group>"; };
+		C70571F128FE745000B450CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70571B628FE426A00B450CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70571EE28FE46DD00B450CF /* NCMB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571C728FE426A00B450CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571D128FE426A00B450CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70571B028FE426A00B450CF = {
+			isa = PBXGroup;
+			children = (
+				C70571BB28FE426A00B450CF /* geodemo */,
+				C70571CD28FE426A00B450CF /* geodemoTests */,
+				C70571D728FE426A00B450CF /* geodemoUITests */,
+				C70571BA28FE426A00B450CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70571BA28FE426A00B450CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70571B928FE426A00B450CF /* geodemo.app */,
+				C70571CA28FE426A00B450CF /* geodemoTests.xctest */,
+				C70571D428FE426A00B450CF /* geodemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70571BB28FE426A00B450CF /* geodemo */ = {
+			isa = PBXGroup;
+			children = (
+				C70571EF28FE5DEB00B450CF /* yamanote.json */,
+				C70571E728FE42A000B450CF /* Info.plist */,
+				C70571BC28FE426A00B450CF /* geodemoApp.swift */,
+				C70571BE28FE426A00B450CF /* ContentView.swift */,
+				C70571C028FE426A00B450CF /* Assets.xcassets */,
+				C70571C228FE426A00B450CF /* geodemo.entitlements */,
+				C70571C328FE426A00B450CF /* Preview Content */,
+				C70571E828FE434F00B450CF /* StationView.swift */,
+				C70571EA28FE443300B450CF /* ImportView.swift */,
+				C70571F128FE745000B450CF /* MapView.swift */,
+			);
+			path = geodemo;
+			sourceTree = "<group>";
+		};
+		C70571C328FE426A00B450CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C70571C428FE426A00B450CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C70571CD28FE426A00B450CF /* geodemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C70571CE28FE426A00B450CF /* geodemoTests.swift */,
+			);
+			path = geodemoTests;
+			sourceTree = "<group>";
+		};
+		C70571D728FE426A00B450CF /* geodemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C70571D828FE426A00B450CF /* geodemoUITests.swift */,
+				C70571DA28FE426A00B450CF /* geodemoUITestsLaunchTests.swift */,
+			);
+			path = geodemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70571B828FE426A00B450CF /* geodemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70571DE28FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemo" */;
+			buildPhases = (
+				C70571B528FE426A00B450CF /* Sources */,
+				C70571B628FE426A00B450CF /* Frameworks */,
+				C70571B728FE426A00B450CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geodemo;
+			packageProductDependencies = (
+				C70571ED28FE46DD00B450CF /* NCMB */,
+			);
+			productName = geodemo;
+			productReference = C70571B928FE426A00B450CF /* geodemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70571C928FE426A00B450CF /* geodemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70571E128FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemoTests" */;
+			buildPhases = (
+				C70571C628FE426A00B450CF /* Sources */,
+				C70571C728FE426A00B450CF /* Frameworks */,
+				C70571C828FE426A00B450CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70571CC28FE426A00B450CF /* PBXTargetDependency */,
+			);
+			name = geodemoTests;
+			productName = geodemoTests;
+			productReference = C70571CA28FE426A00B450CF /* geodemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C70571D328FE426A00B450CF /* geodemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70571E428FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemoUITests" */;
+			buildPhases = (
+				C70571D028FE426A00B450CF /* Sources */,
+				C70571D128FE426A00B450CF /* Frameworks */,
+				C70571D228FE426A00B450CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70571D628FE426A00B450CF /* PBXTargetDependency */,
+			);
+			name = geodemoUITests;
+			productName = geodemoUITests;
+			productReference = C70571D428FE426A00B450CF /* geodemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70571B128FE426A00B450CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C70571B828FE426A00B450CF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C70571C928FE426A00B450CF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C70571B828FE426A00B450CF;
+					};
+					C70571D328FE426A00B450CF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C70571B828FE426A00B450CF;
+					};
+				};
+			};
+			buildConfigurationList = C70571B428FE426A00B450CF /* Build configuration list for PBXProject "geodemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70571B028FE426A00B450CF;
+			packageReferences = (
+				C70571EC28FE46DD00B450CF /* XCRemoteSwiftPackageReference "ncmb_swift" */,
+			);
+			productRefGroup = C70571BA28FE426A00B450CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70571B828FE426A00B450CF /* geodemo */,
+				C70571C928FE426A00B450CF /* geodemoTests */,
+				C70571D328FE426A00B450CF /* geodemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70571B728FE426A00B450CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70571C528FE426A00B450CF /* Preview Assets.xcassets in Resources */,
+				C70571C128FE426A00B450CF /* Assets.xcassets in Resources */,
+				C70571F028FE5DEB00B450CF /* yamanote.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571C828FE426A00B450CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571D228FE426A00B450CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70571B528FE426A00B450CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70571BF28FE426A00B450CF /* ContentView.swift in Sources */,
+				C70571EB28FE443300B450CF /* ImportView.swift in Sources */,
+				C70571F228FE745000B450CF /* MapView.swift in Sources */,
+				C70571E928FE434F00B450CF /* StationView.swift in Sources */,
+				C70571BD28FE426A00B450CF /* geodemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571C628FE426A00B450CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70571CF28FE426A00B450CF /* geodemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70571D028FE426A00B450CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70571D928FE426A00B450CF /* geodemoUITests.swift in Sources */,
+				C70571DB28FE426A00B450CF /* geodemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70571CC28FE426A00B450CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70571B828FE426A00B450CF /* geodemo */;
+			targetProxy = C70571CB28FE426A00B450CF /* PBXContainerItemProxy */;
+		};
+		C70571D628FE426A00B450CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70571B828FE426A00B450CF /* geodemo */;
+			targetProxy = C70571D528FE426A00B450CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C70571DC28FE426A00B450CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C70571DD28FE426A00B450CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C70571DF28FE426A00B450CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = geodemo/geodemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geodemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YX944FB478;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = geodemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70571E028FE426A00B450CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = geodemo/geodemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"geodemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YX944FB478;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = geodemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C70571E228FE426A00B450CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX944FB478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geodemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/geodemo";
+			};
+			name = Debug;
+		};
+		C70571E328FE426A00B450CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX944FB478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geodemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/geodemo";
+			};
+			name = Release;
+		};
+		C70571E528FE426A00B450CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX944FB478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geodemo;
+			};
+			name = Debug;
+		};
+		C70571E628FE426A00B450CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX944FB478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nifcloud.mbaas.geodemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geodemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70571B428FE426A00B450CF /* Build configuration list for PBXProject "geodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70571DC28FE426A00B450CF /* Debug */,
+				C70571DD28FE426A00B450CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70571DE28FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70571DF28FE426A00B450CF /* Debug */,
+				C70571E028FE426A00B450CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70571E128FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70571E228FE426A00B450CF /* Debug */,
+				C70571E328FE426A00B450CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70571E428FE426A00B450CF /* Build configuration list for PBXNativeTarget "geodemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70571E528FE426A00B450CF /* Debug */,
+				C70571E628FE426A00B450CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C70571EC28FE46DD00B450CF /* XCRemoteSwiftPackageReference "ncmb_swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NIFCLOUD-mbaas/ncmb_swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C70571ED28FE46DD00B450CF /* NCMB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C70571EC28FE46DD00B450CF /* XCRemoteSwiftPackageReference "ncmb_swift" */;
+			productName = NCMB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C70571B128FE426A00B450CF /* Project object */;
+}
